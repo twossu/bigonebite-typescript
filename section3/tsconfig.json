@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "target": "ESNext", //생성되는 자바스크립트 버전을 정할 수 있다
+    "module": "ESNext", //모듈 옵션 직접 조정 가능
+    "outDir": "dist", //js파일이 어디에 생성이 되었으면 좋은지 설정가능 (한 곳으로 파일이 모여 복잡하지X)
+    "strict": true, //엄격한 함수 검사
+    "moduleDetection": "force" //파일을 어떤 모듈로 간주할 것인가(다른 파일에 같은 변수명 가능능)
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["src"] //src의 모든 파일 실행 시킴
+}
